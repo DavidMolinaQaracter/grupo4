@@ -6,35 +6,35 @@ git commit
 git status
 
 What is the command to check the current status of the repository? 
-4
+1
 git status
 git init
 git log
 git push
 
 How can you create a new branch in Git? 
-3
+2
 git branch <branch_name>
 git checkout -b <branch_name>
 git merge <branch_name>
 git commit -m "new branch"
 
 Which of the following commands stages changes in Git? 
-4
+1
 git add .
 git commit
 git push
 git status
 
 What command would you use to add a remote repository in Git? 
-3
+1
 git remote add <name> <url>
 git clone <url>
 git fetch
 git pull
 
 What command is used to commit changes in Git? 
-2
+1
 git commit -m "message"
 git push
 git merge
@@ -48,7 +48,7 @@ Only commits local changes
 Pushes changes to the remote repository
 
 What is GitHub? 
-2
+1
 A platform for hosting Git repositories
 A text editor for coding
 A local repository manager
@@ -62,7 +62,7 @@ git pull
 git clone
 
 What is the purpose of a `.gitignore` file? 
-3
+1
 To exclude files from being tracked by Git
 To include files in the commit history
 To configure Git username and email
