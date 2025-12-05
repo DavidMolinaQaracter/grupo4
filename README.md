@@ -14,24 +14,27 @@ El jugador debe responder preguntas de opción múltiple y al final se muestra:
 
 ## Estructura del proyecto
 
+```plaintext
 src/
-└─ main/
-└─ java/
-├─ core/ → Lógica del juego (POO)
-│ ├─ Question.java
-│ ├─ Quiz.java
-│ ├─ GameResult.java
-│ └─ QuestionLoader.java
-│
-├─ ui/ → Interfaz gráfica Swing
-│ ├─ MainMenu.java
-│ ├─ QuizWindow.java
-│ └─ ResultsWindow.java
-│
-├─ data/ → Archivo con preguntas
-│ └─ data.txt
-│
-└─ Main.java → Ejecuta el juego
+ └─ main/
+    └─ java/
+       ├─ core/      → Lógica del juego (POO)
+       │   ├─ Question.java
+       │   ├─ Quiz.java
+       │   ├─ GameResult.java
+       │   └─ QuestionLoader.java
+       │
+       ├─ ui/        → Interfaz gráfica Swing
+       │   ├─ MainMenu.java
+       │   ├─ QuizWindow.java
+       │   └─ ResultsWindow.java
+       │
+       ├─ data/      → Archivo con preguntas
+       │   └─ data.txt
+       │
+       └─ Main.java  → Ejecuta el juego
+```
+
 
 ---
 
