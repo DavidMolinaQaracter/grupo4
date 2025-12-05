@@ -12,7 +12,9 @@ public class Quiz {
     private int puntaje;
 
     public Quiz() {
+
         preguntas = QuestionLoader.cargar("src/main/java/data/data.txt");
+
         resultados = new ArrayList<>();
         indiceActual = 0;
         puntaje = 0;
