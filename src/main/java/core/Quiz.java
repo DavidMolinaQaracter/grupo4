@@ -12,7 +12,12 @@ public class Quiz {
     private int puntaje;
 
     public Quiz() {
-        preguntas = QuestionLoader.cargar("src/main/java/data/data.txt");
+        String base = System.getProperty("user.dir");
+        String path = base + "/main/java/data/data.txt";
+        preguntas = QuestionLoader.cargar(path);
+
+        System.out.println("Cargando: " + path);
+
         resultados = new ArrayList<>();
         indiceActual = 0;
         puntaje = 0;
